@@ -1,0 +1,40 @@
+---
+regions:
+ - global
+ - eu-north-1
+ - ap-south-1
+ - eu-north-1
+ - eu-west-3
+ - eu-west-2
+ - eu-west-1
+ - ap-south-1
+ - ap-east-1
+ - ap-northeast-3
+ - ap-northeast-2
+ - ap-northeast-1
+ - sa-east-1
+ - ca-central-1
+ - ap-southeast-1
+ - ap-southeast-2
+ - eu-central-1
+ - us-east-1
+ - us-east-2
+ - us-west-1
+ - us-west-2
+ - me-south-1
+ - af-south-1
+  
+
+
+account-blacklist:
+ - 1234567890
+
+# optional: restrict nuking to these resources
+resource-types:
+#  - S3Object
+#  - S3Bucket
+  # only nuke these three resources
+#  excludes:
+#  - S3Bucket
+accounts:
+  001613358280: {}
